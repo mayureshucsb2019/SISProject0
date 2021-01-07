@@ -33,7 +33,8 @@ tr:nth-child(even) {
 #leftbox { 
     float:left;  
     width:30%; 
-    height:280px; 
+    height:280px;
+    align:"center";
 } 
 #middlebox{ 
     float:left;  
