@@ -1,0 +1,852 @@
+..........................CHECKING HTTPS...................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        github.com
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        1539 bytes
+
+Concurrency Level:      1
+Time taken for tests:   10.005 seconds
+Complete requests:      64
+Failed requests:        0
+Non-2xx responses:      64
+Keep-Alive requests:    0
+Total transferred:      120384 bytes
+HTML transferred:       98496 bytes
+Requests per second:    6.40 [#/sec] (mean)
+Time per request:       156.334 [ms] (mean)
+Time per request:       156.334 [ms] (mean, across all concurrent requests)
+Transfer rate:          11.75 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       83  118  27.7    121     162
+Processing:    27   38   9.2     39      53
+Waiting:       27   38   9.2     39      52
+Total:        111  156  36.7    162     213
+
+Percentage of the requests served within a certain time (ms)
+  50%    162
+  66%    164
+  75%    205
+  80%    206
+  90%    209
+  95%    209
+  98%    210
+  99%    213
+ 100%    213 (longest request)
+..........................CHECKING HTTP....................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            80
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        0 bytes
+
+Concurrency Level:      1
+Time taken for tests:   10.016 seconds
+Complete requests:      252
+Failed requests:        0
+Non-2xx responses:      252
+Keep-Alive requests:    252
+Total transferred:      34272 bytes
+HTML transferred:       0 bytes
+Requests per second:    25.16 [#/sec] (mean)
+Time per request:       39.746 [ms] (mean)
+Time per request:       39.746 [ms] (mean, across all concurrent requests)
+Transfer rate:          3.34 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   2.5      0      39
+Processing:    38   40   1.3     39      46
+Waiting:       38   39   1.3     39      46
+Total:         38   40   2.8     39      78
+
+Percentage of the requests served within a certain time (ms)
+  50%     39
+  66%     40
+  75%     40
+  80%     41
+  90%     42
+  95%     42
+  98%     43
+  99%     45
+ 100%     78 (longest request)
+...........................................................
+
+..........................CHECKING HTTPS...................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        github.com
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        1539 bytes
+
+Concurrency Level:      2
+Time taken for tests:   10.010 seconds
+Complete requests:      130
+Failed requests:        0
+Non-2xx responses:      130
+Keep-Alive requests:    7
+Total transferred:      250060 bytes
+HTML transferred:       200070 bytes
+Requests per second:    12.99 [#/sec] (mean)
+Time per request:       154.003 [ms] (mean)
+Time per request:       77.002 [ms] (mean, across all concurrent requests)
+Transfer rate:          24.40 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  113  34.1    120     182
+Processing:    27   39   8.0     39      57
+Waiting:       26   39   7.8     39      57
+Total:         45  153  38.7    160     233
+
+Percentage of the requests served within a certain time (ms)
+  50%    160
+  66%    163
+  75%    165
+  80%    169
+  90%    208
+  95%    210
+  98%    213
+  99%    215
+ 100%    233 (longest request)
+..........................CHECKING HTTP....................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            80
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        0 bytes
+
+Concurrency Level:      2
+Time taken for tests:   10.008 seconds
+Complete requests:      497
+Failed requests:        0
+Non-2xx responses:      497
+Keep-Alive requests:    497
+Total transferred:      67592 bytes
+HTML transferred:       0 bytes
+Requests per second:    49.66 [#/sec] (mean)
+Time per request:       40.275 [ms] (mean)
+Time per request:       20.138 [ms] (mean, across all concurrent requests)
+Transfer rate:          6.60 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   2.5      0      40
+Processing:    38   40   2.2     39      56
+Waiting:       38   40   2.2     39      56
+Total:         38   40   3.4     39      81
+
+Percentage of the requests served within a certain time (ms)
+  50%     39
+  66%     40
+  75%     41
+  80%     41
+  90%     42
+  95%     44
+  98%     49
+  99%     53
+ 100%     81 (longest request)
+...........................................................
+
+..........................CHECKING HTTPS...................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        github.com
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        1539 bytes
+
+Concurrency Level:      4
+Time taken for tests:   10.010 seconds
+Complete requests:      259
+Failed requests:        0
+Non-2xx responses:      259
+Keep-Alive requests:    0
+Total transferred:      487179 bytes
+HTML transferred:       398601 bytes
+Requests per second:    25.87 [#/sec] (mean)
+Time per request:       154.595 [ms] (mean)
+Time per request:       38.649 [ms] (mean, across all concurrent requests)
+Transfer rate:          47.53 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       83  115  23.6    121     176
+Processing:    26   38   7.8     39      62
+Waiting:       26   37   7.8     39      59
+Total:        110  153  31.0    160     227
+
+Percentage of the requests served within a certain time (ms)
+  50%    160
+  66%    163
+  75%    166
+  80%    167
+  90%    206
+  95%    210
+  98%    213
+  99%    216
+ 100%    227 (longest request)
+..........................CHECKING HTTP....................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            80
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        0 bytes
+
+Concurrency Level:      4
+Time taken for tests:   10.002 seconds
+Complete requests:      990
+Failed requests:        0
+Non-2xx responses:      990
+Keep-Alive requests:    990
+Total transferred:      134640 bytes
+HTML transferred:       0 bytes
+Requests per second:    98.98 [#/sec] (mean)
+Time per request:       40.414 [ms] (mean)
+Time per request:       10.103 [ms] (mean, across all concurrent requests)
+Transfer rate:          13.15 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   2.9      0      56
+Processing:    27   40  10.0     39      61
+Waiting:       26   40  10.0     39      60
+Total:         27   40  10.5     39     106
+
+Percentage of the requests served within a certain time (ms)
+  50%     39
+  66%     50
+  75%     51
+  80%     51
+  90%     52
+  95%     52
+  98%     54
+  99%     55
+ 100%    106 (longest request)
+...........................................................
+
+..........................CHECKING HTTPS...................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        github.com
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        1539 bytes
+
+Concurrency Level:      8
+Time taken for tests:   10.003 seconds
+Complete requests:      530
+Failed requests:        6
+   (Connect: 0, Receive: 0, Length: 6, Exceptions: 0)
+Non-2xx responses:      524
+Keep-Alive requests:    64
+Total transferred:      1753231 bytes
+HTML transferred:       1509392 bytes
+Requests per second:    52.99 [#/sec] (mean)
+Time per request:       150.984 [ms] (mean)
+Time per request:       18.873 [ms] (mean, across all concurrent requests)
+Transfer rate:          171.17 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  105  45.1    122     169
+Processing:    26   44  45.0     40     871
+Waiting:       26   41  21.5     40     491
+Total:         43  149  59.8    162     871
+
+Percentage of the requests served within a certain time (ms)
+  50%    162
+  66%    165
+  75%    168
+  80%    171
+  90%    210
+  95%    213
+  98%    218
+  99%    325
+ 100%    871 (longest request)
+..........................CHECKING HTTP....................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            80
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        0 bytes
+
+Concurrency Level:      8
+Time taken for tests:   10.006 seconds
+Complete requests:      2215
+Failed requests:        0
+Non-2xx responses:      2215
+Keep-Alive requests:    2215
+Total transferred:      301240 bytes
+HTML transferred:       0 bytes
+Requests per second:    221.37 [#/sec] (mean)
+Time per request:       36.138 [ms] (mean)
+Time per request:       4.517 [ms] (mean, across all concurrent requests)
+Transfer rate:          29.40 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   2.4      0      53
+Processing:    25   36   9.0     38      69
+Waiting:       25   36   9.0     38      68
+Total:         25   36   9.3     38     103
+
+Percentage of the requests served within a certain time (ms)
+  50%     38
+  66%     39
+  75%     40
+  80%     42
+  90%     51
+  95%     52
+  98%     53
+  99%     53
+ 100%    103 (longest request)
+...........................................................
+
+..........................CHECKING HTTPS...................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        github.com
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        1539 bytes
+
+Concurrency Level:      16
+Time taken for tests:   10.006 seconds
+Complete requests:      1031
+Failed requests:        5
+   (Connect: 0, Receive: 0, Length: 5, Exceptions: 0)
+Non-2xx responses:      1026
+Keep-Alive requests:    65
+Total transferred:      2652028 bytes
+HTML transferred:       2235821 bytes
+Requests per second:    103.04 [#/sec] (mean)
+Time per request:       155.286 [ms] (mean)
+Time per request:       9.705 [ms] (mean, across all concurrent requests)
+Transfer rate:          258.83 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  112  37.5    123     173
+Processing:    27   41  28.9     40     678
+Waiting:       26   39  15.4     39     463
+Total:         32  153  48.7    164     678
+
+Percentage of the requests served within a certain time (ms)
+  50%    164
+  66%    168
+  75%    170
+  80%    173
+  90%    211
+  95%    215
+  98%    219
+  99%    226
+ 100%    678 (longest request)
+..........................CHECKING HTTP....................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            80
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        0 bytes
+
+Concurrency Level:      16
+Time taken for tests:   10.004 seconds
+Complete requests:      4467
+Failed requests:        0
+Non-2xx responses:      4467
+Keep-Alive requests:    4467
+Total transferred:      607512 bytes
+HTML transferred:       0 bytes
+Requests per second:    446.50 [#/sec] (mean)
+Time per request:       35.834 [ms] (mean)
+Time per request:       2.240 [ms] (mean, across all concurrent requests)
+Transfer rate:          59.30 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   2.2      0      51
+Processing:    26   36   7.9     38      69
+Waiting:       25   36   7.9     38      69
+Total:         26   36   8.2     38     104
+
+Percentage of the requests served within a certain time (ms)
+  50%     38
+  66%     40
+  75%     41
+  80%     41
+  90%     45
+  95%     51
+  98%     52
+  99%     54
+ 100%    104 (longest request)
+...........................................................
+
+..........................CHECKING HTTPS...................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        github.com
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        1539 bytes
+
+Concurrency Level:      32
+Time taken for tests:   10.001 seconds
+Complete requests:      1894
+Failed requests:        29
+   (Connect: 0, Receive: 0, Length: 29, Exceptions: 0)
+Non-2xx responses:      1865
+Keep-Alive requests:    22
+Total transferred:      6990808 bytes
+HTML transferred:       6267889 bytes
+Requests per second:    189.39 [#/sec] (mean)
+Time per request:       168.967 [ms] (mean)
+Time per request:       5.280 [ms] (mean, across all concurrent requests)
+Transfer rate:          682.65 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  122  27.8    126     199
+Processing:    26   46  42.0     41     739
+Waiting:       26   41  17.2     41     516
+Total:         33  167  52.5    168     739
+
+Percentage of the requests served within a certain time (ms)
+  50%    168
+  66%    173
+  75%    178
+  80%    187
+  90%    216
+  95%    221
+  98%    236
+  99%    464
+ 100%    739 (longest request)
+..........................CHECKING HTTP....................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            80
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        0 bytes
+
+Concurrency Level:      32
+Time taken for tests:   10.007 seconds
+Complete requests:      9422
+Failed requests:        0
+Non-2xx responses:      9422
+Keep-Alive requests:    9422
+Total transferred:      1281392 bytes
+HTML transferred:       0 bytes
+Requests per second:    941.54 [#/sec] (mean)
+Time per request:       33.987 [ms] (mean)
+Time per request:       1.062 [ms] (mean, across all concurrent requests)
+Transfer rate:          125.05 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   2.3      0      54
+Processing:    25   34   9.1     29      62
+Waiting:       25   34   9.1     29      62
+Total:         25   34   9.4     29     108
+
+Percentage of the requests served within a certain time (ms)
+  50%     29
+  66%     33
+  75%     39
+  80%     41
+  90%     51
+  95%     52
+  98%     53
+  99%     54
+ 100%    108 (longest request)
+...........................................................
+
+..........................CHECKING HTTPS...................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        github.com
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        1539 bytes
+
+Concurrency Level:      64
+Time taken for tests:   10.003 seconds
+Complete requests:      2977
+Failed requests:        46
+   (Connect: 0, Receive: 0, Length: 46, Exceptions: 0)
+Non-2xx responses:      2932
+Keep-Alive requests:    0
+Total transferred:      11024637 bytes
+HTML transferred:       9912164 bytes
+Requests per second:    297.60 [#/sec] (mean)
+Time per request:       215.056 [ms] (mean)
+Time per request:       3.360 [ms] (mean, across all concurrent requests)
+Transfer rate:          1076.25 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       87  161 148.7    139    1207
+Processing:    27   52  43.8     46     512
+Waiting:       27   45   9.9     45      86
+Total:        118  212 157.2    185    1575
+
+Percentage of the requests served within a certain time (ms)
+  50%    185
+  66%    201
+  75%    216
+  80%    223
+  90%    241
+  95%    267
+  98%   1155
+  99%   1197
+ 100%   1575 (longest request)
+..........................CHECKING HTTP....................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            80
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        0 bytes
+
+Concurrency Level:      64
+Time taken for tests:   10.000 seconds
+Complete requests:      17654
+Failed requests:        0
+Non-2xx responses:      17654
+Keep-Alive requests:    17654
+Total transferred:      2400944 bytes
+HTML transferred:       0 bytes
+Requests per second:    1765.36 [#/sec] (mean)
+Time per request:       36.253 [ms] (mean)
+Time per request:       0.566 [ms] (mean, across all concurrent requests)
+Transfer rate:          234.46 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   2.6      0      61
+Processing:    25   36   8.0     38     263
+Waiting:       25   36   8.0     38     263
+Total:         25   36   8.5     38     263
+
+Percentage of the requests served within a certain time (ms)
+  50%     38
+  66%     40
+  75%     40
+  80%     41
+  90%     44
+  95%     50
+  98%     52
+  99%     53
+ 100%    263 (longest request)
+...........................................................
+
+..........................CHECKING HTTPS...................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        github.com
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        1539 bytes
+
+Concurrency Level:      128
+Time taken for tests:   10.001 seconds
+Complete requests:      2890
+Failed requests:        53
+   (Connect: 0, Receive: 0, Length: 53, Exceptions: 0)
+Non-2xx responses:      2838
+Keep-Alive requests:    47
+Total transferred:      11960830 bytes
+HTML transferred:       10815232 bytes
+Requests per second:    288.96 [#/sec] (mean)
+Time per request:       442.968 [ms] (mean)
+Time per request:       3.461 [ms] (mean, across all concurrent requests)
+Transfer rate:          1167.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  348 612.0    227    3321
+Processing:    30   84  75.9     75    1106
+Waiting:       28   73  19.0     74     468
+Total:         42  432 617.7    307    4049
+
+Percentage of the requests served within a certain time (ms)
+  50%    307
+  66%    337
+  75%    351
+  80%    360
+  90%    395
+  95%    827
+  98%   3264
+  99%   3314
+ 100%   4049 (longest request)
+..........................CHECKING HTTP....................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            80
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        0 bytes
+
+Concurrency Level:      128
+Time taken for tests:   10.001 seconds
+Complete requests:      33697
+Failed requests:        0
+Non-2xx responses:      33697
+Keep-Alive requests:    33697
+Total transferred:      4582792 bytes
+HTML transferred:       0 bytes
+Requests per second:    3369.42 [#/sec] (mean)
+Time per request:       37.989 [ms] (mean)
+Time per request:       0.297 [ms] (mean, across all concurrent requests)
+Transfer rate:          447.50 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   5.8      0     105
+Processing:    25   38   8.7     39      77
+Waiting:       25   37   8.7     39      77
+Total:         25   38  10.6     39     159
+
+Percentage of the requests served within a certain time (ms)
+  50%     39
+  66%     41
+  75%     42
+  80%     44
+  90%     51
+  95%     53
+  98%     55
+  99%     58
+ 100%    159 (longest request)
+...........................................................
+
+..........................CHECKING HTTPS...................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+TLS Server Name:        github.com
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        1539 bytes
+
+Concurrency Level:      256
+Time taken for tests:   10.020 seconds
+Complete requests:      4437
+Failed requests:        1652
+   (Connect: 0, Receive: 0, Length: 1652, Exceptions: 0)
+Non-2xx responses:      4384
+Keep-Alive requests:    1672
+Total transferred:      15109806 bytes
+HTML transferred:       13202194 bytes
+Requests per second:    442.81 [#/sec] (mean)
+Time per request:       578.123 [ms] (mean)
+Time per request:       2.258 [ms] (mean, across all concurrent requests)
+Transfer rate:          1472.61 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  397 598.7    298    4065
+Processing:    27  144 199.3    108    2724
+Waiting:       27  123 103.1    107    1090
+Total:         29  541 641.5    407    4500
+
+Percentage of the requests served within a certain time (ms)
+  50%    407
+  66%    503
+  75%    573
+  80%    688
+  90%   1335
+  95%   1695
+  98%   3244
+  99%   3536
+ 100%   4500 (longest request)
+..........................CHECKING HTTP....................
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking github.com (be patient)
+
+
+Server Software:        
+Server Hostname:        github.com
+Server Port:            80
+
+Document Path:          /mayureshucsb2019/SISProject0
+Document Length:        0 bytes
+
+Concurrency Level:      256
+Time taken for tests:   10.000 seconds
+Complete requests:      53989
+Failed requests:        0
+Non-2xx responses:      53989
+Keep-Alive requests:    53989
+Total transferred:      7342504 bytes
+HTML transferred:       0 bytes
+Requests per second:    5398.78 [#/sec] (mean)
+Time per request:       47.418 [ms] (mean)
+Time per request:       0.185 [ms] (mean, across all concurrent requests)
+Transfer rate:          717.03 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    3  48.7      0    1082
+Processing:    26   45  10.3     43      93
+Waiting:       26   45  10.3     43      93
+Total:         26   47  50.3     43    1160
+
+Percentage of the requests served within a certain time (ms)
+  50%     43
+  66%     49
+  75%     53
+  80%     54
+  90%     58
+  95%     63
+  98%     68
+  99%     71
+ 100%   1160 (longest request)
+...........................................................
+
